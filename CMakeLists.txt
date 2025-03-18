@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 3.10)
 
-project(rtxmg LANGUAGES C CXX VERSION 0.9)
+project(rtxmg LANGUAGES C CXX VERSION 0.9.2)
 
 if(WIN32)
     message(STATUS "Found Windows ${CMAKE_SYSTEM_VERSION} - SDK: ${CMAKE_VS_WINDOWS_TARGET_PLATFORM_VERSION}")
